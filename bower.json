@@ -1,0 +1,21 @@
+{
+  "name": "html-slideshow",
+  "authors": [
+    "Yuichi Senga <subent@noonz.net>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "slider-pro": "^1.2.2"
+  }
+}

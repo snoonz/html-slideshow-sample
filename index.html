@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>slide show</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Slideshow example">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bower_components/slider-pro/dist/css/slider-pro.css">
+    <script src="./bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="./bower_components/slider-pro/dist/js/jquery.sliderPro.min.js"></script>
+    <script src="./bower_components/tone/build/Tone.js"></script>
+    <script src="./js/main.js"></script>
+</head>
+
+<body>
+<h1>Slideshow sample</h1>
+<div id="slider-aspect-wrapper">
+<div class="slider-box">
+    <div class="slider-pro" id="my-slider" style="display:none">
+        <div class="sp-slides">
+            <!-- Slide 1 -->
+            <div class="sp-slide">
+                <img class="sp-image" src="./images/photo01.jpg" />
+                <h4 class="sp-layer sp-black sp-padding" data-position="bottomCenter" data-vertical="6%" data-show-transition="left" data-hide-transition="left" data-show-delay="2000" data-hide-delay="0">
+                  ここはどこだろう
+                </h4>
+            </div>
+            <div class="sp-slide">
+                <img class="sp-image" src="./images/photo02.jpg" />
+                <h4 class="sp-layer sp-black sp-padding" data-position="bottomCenter" data-vertical="6%" data-show-transition="left" data-hide-transition="left" data-show-delay="2000" data-hide-delay="0">
+                  花火をしながら
+                </h4>
+            </div>
+            <div class="sp-slide">
+                <img class="sp-image" src="./images/photo03.jpg" />
+                <h4 class="sp-layer sp-black sp-padding" data-position="bottomCenter" data-vertical="6%" data-show-transition="left" data-hide-transition="left" data-show-delay="2000" data-hide-delay="0">
+                  昔のことを考えていた
+                </h4>
+            </div>
+            <div class="sp-slide">
+                <img class="sp-image" src="./images/photo04.jpg" />
+                <h4 class="sp-layer sp-black sp-padding" data-position="bottomCenter" data-vertical="6%" data-show-transition="left" data-hide-transition="left" data-show-delay="2000" data-hide-delay="0">
+                  湖に行くと誰かが見えた
+                </h4>
+            </div>
+            <div class="sp-slide">
+                <img class="sp-image" src="./images/photo05.jpg" />
+                <h4 class="sp-layer sp-black sp-padding" data-position="bottomCenter" data-vertical="6%" data-show-transition="left" data-hide-transition="left" data-show-delay="2000" data-hide-delay="0">
+                  見つめる先には
+                </h4>
+            </div>
+            <div class="sp-slide">
+                <img class="sp-image" src="./images/photo06.jpg" />
+                <h4 class="sp-layer sp-black sp-padding" data-position="bottomCenter" data-vertical="6%" data-show-transition="left" data-hide-transition="left" data-show-delay="2000" data-hide-delay="0">
+                  田んぼが見える
+                </h4>
+            </div>
+            <div class="sp-slide">
+                <img class="sp-image" src="./images/photo07.jpg" />
+                <h4 class="sp-layer sp-black sp-padding" data-position="bottomCenter" data-vertical="6%" data-show-transition="left" data-hide-transition="left" data-show-delay="2000" data-hide-delay="0">
+                  山をかき分け
+                </h4>
+            </div>
+            <div class="sp-slide">
+                <img class="sp-image" src="./images/photo08.jpg" />
+                <h4 class="sp-layer sp-black sp-padding" data-position="bottomCenter" data-vertical="6%" data-show-transition="left" data-hide-transition="left" data-show-delay="2000" data-hide-delay="0">
+                  出口を見つけた
+                </h4>
+            </div>
+            <div class="sp-slide">
+                <img class="sp-image" src="./images/photo09.jpg" />
+                <h4 class="sp-layer sp-black sp-padding" data-position="bottomCenter" data-vertical="6%" data-show-transition="left" data-hide-transition="left" data-show-delay="2000" data-hide-delay="0">
+                  長い距離を漕いで
+                </h4>
+            </div>
+            <div class="sp-slide">
+                <img class="sp-image" src="./images/photo10.jpg" />
+                <h4 class="sp-layer sp-black sp-padding" data-position="bottomCenter" data-vertical="6%" data-show-transition="left" data-hide-transition="left" data-show-delay="2000" data-hide-delay="0">
+                  ようやく食事にありつけた
+                </h4>
+            </div>
+            <div class="sp-slide">
+                <img class="sp-image" src="./images/photo11.jpg" />
+            </div>
+            <div class="sp-slide">
+                <img class="sp-image" src="./images/photo12.jpg" />
+            </div>
+        </div>
+    </div>
+    <img src="./images/no_sound.png" class="slider-cover__mute-icon">
+    <img src="./images/sound.png" class="slider-cover__unmute-icon">
+    <div class="slider-cover" id="my-slider-cover">
+      <img src="./images/photo01.jpg" class="slider-cover__background">
+      <img src="./images/play.png" class="slider-cover__play-icon">
+      <img src="./images/no_sound.png" class="slider-cover__nosound-icon">
+      <img src="./images/sound.png" class="slider-cover__sound-icon">
+    </div>
+</div>
+</div>
+</body>
+
+</html>

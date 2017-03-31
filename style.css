@@ -1,0 +1,82 @@
+
+#slider-aspect-wrapper {
+    position: relative;
+    margin: 0px auto;
+    width: 480px;
+}
+
+@media screen and ( max-width:479px )
+{
+  #slider-aspect-wrapper {
+      width: 100%;
+  }
+}
+
+#slider-aspect-wrapper:before {
+    content:"";
+    display: block;
+    padding-top: 66.66666%; /* 高さを幅の66.6%に固定 */
+}
+
+.slider-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.slider-boxc {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 500px;
+  height: 334px;
+}
+
+.slider-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.slider-cover__background {
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+}
+
+.slider-cover__play-icon, .slider-cover__sound-icon, .slider-cover__nosound-icon {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+}
+
+.slider-cover__play-icon {
+  left: 0;
+  right: 0;
+  margin:15% auto;
+  opacity: 0.5;
+}
+
+.slider-cover__nosound-icon {
+  left: 30%;
+  margin-top: 35%;
+}
+
+.slider-cover__sound-icon {
+  right: 30%;
+  margin-top: 35%;
+}
+
+.slider-cover__mute-icon, .slider-cover__unmute-icon {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 35px;
+  height: 35px;
+  margin: 8px;
+}
